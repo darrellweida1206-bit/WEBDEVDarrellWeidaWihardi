@@ -1,0 +1,181 @@
+/* ========================================
+   BAGIAN SLIDER (CAROUSEL)
+   ======================================== */
+#carouselExampleCaptions .carousel-item img {
+    height: 700px;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+
+
+/* ========================================
+   BAGIAN SCROLLSPY (PENDAFTARAN WISUDA)
+   ======================================== */
+.scrollspy-example {
+    position: relative;
+    height: 548px;
+    overflow-y: auto;
+    border: 2px solid #dee2e6;
+    background-color: #f8f9fa;
+}
+
+.scrollspy-example > div {
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.scrollspy-example h5 {
+    color: #9e172e;
+}
+
+/* ========================================
+   BAGIAN UJIAN SKRIPSI (GALERI FOTO)
+   ======================================== */
+.galerifoto figure {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border: 1px solid transparent;
+}
+
+.galerifoto figure:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: 1px solid #c0c0c0; 
+}
+
+.galerifoto figure figcaption {
+    transition: color 0.3s ease;
+}
+
+.galerifoto figure:hover figcaption {
+    color: #9e172e;
+    font-weight: 400;
+}
+
+/* ========================================
+   BAGIAN LULUSAN TERBAIK
+   ======================================== */
+.row.tengah .card .card-img-top {
+    height: 450px;
+    object-fit: cover;
+}
+
+.row.tengah .card, .row.atas .col-lg-4 .card {
+    transition: transform 0.5s ease;
+}
+
+.row.tengah .card:hover,
+.row.atas .col-lg-4 .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* ========================================
+   BAGIAN JADWAL WISUDA (CARD HORIZONTAL)
+   ======================================== */
+.row.atas .col-lg-8 .card.mb-3 .card-img-top {
+    height: 340px;
+    object-fit: cover;
+}
+
+/* Transition untuk card jadwal wisuda */
+.row.atas .col-lg-8 .card.mb-3 {
+    transition: transform 0.5s ease;
+}
+
+.row.atas .col-lg-8 .card.mb-3:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* ========================================
+   BAGIAN PENASIHAT AKADEMIK (col-md-7)
+   ======================================== */
+.col-md-7 .card.mb-3 .row.g-0 .col-md-6 img {
+    height: 153px;
+    object-fit: cover;
+}
+
+.col-md-7 .card.mb-3 .card-body {
+    padding-left: 7px;
+}
+
+.col-md-7 .card.mb-3 .card-title.text-primary {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #9e172e;
+}
+
+.col-md-7 .card.mb-3 .card-text {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.col-md-7 .card.mb-3 .card-text:last-of-type {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+/* Transition untuk card penasihat akademik */
+.col-md-7 .card.mb-3 {
+    transition: transform 0.5s ease;
+}
+
+.col-md-7 .card.mb-3:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* ========================================
+   BAGIAN CARD PROFILE (col-md-5)
+   ======================================== */
+.col-md-5 .card.bg-maroon .row.g-0 .col-md-4 img {
+    width: 250px;
+    height: 153px;
+    object-fit: cover;
+}
+
+/* Background maroon untuk card profile */
+.bg-maroon {
+    background-color: #9e172e;
+    transition: transform 0.5s ease;
+}
+
+/* Transition untuk card profile */
+.bg-maroon:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(158, 23, 46, 0.4);
+}
+
+/* ========================================
+   UBAH SEMUA WARNA BIRU JADI MAROON
+   ======================================== */
+.btn-primary {
+    background-color: #9e172e;
+    border-color: #9e172e;
+}
+
+.btn-primary:hover {
+    background-color: #7a1123;
+    border-color: #7a1123;
+}
+
+.list-group-item.active {
+    background-color: #9e172e;
+    border-color: #9e172e;
+}
+
+.card-title-penasihat {
+    color: #9e172e;
+}
+
+/**footer**/
+footer {
+    background-color: #9e172e;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
